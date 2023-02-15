@@ -8,7 +8,6 @@ There are two main files, one for a static image and one for a video file/live c
 To run the code:
 ```
 git clone https://github.com/Story012/EML6805.git
-
 ```
 
 Through the terminal:
