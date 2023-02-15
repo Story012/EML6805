@@ -1,20 +1,32 @@
 # EML6805
 Projects for Advanced Design of Robots course
 
-# For LineFollower project:
+# LineFollower:
 
-There are two main files, one for a static image and one for a video file/live camera.
+There are two main executables, one for an image and one for a video file/live camera.
 
-To run the code:
+Go to your preffered directory in a terminal, 
 ```
+cd ~/Documents/robotics_is_life
+```
+
+Download the files:
+```
+// Grab files from github; note this will download in your current directory!
 git clone https://github.com/Story012/EML6805.git
+
+cd LineFollower
 ```
 
-Through the terminal:
-```
-cd LineFollower
-mkdir build && cd build
+## Terminal approach:
+
+// Create build folder
+mkdir build 
+// Move into the build folder
+cd build
+// Set up the build folder for cmake
 cmake ..
+// Compile the scripts!
 make
 ```
 
@@ -26,8 +38,8 @@ or
 ```
 ./lineFollower_live
  ```
- 
-Through vscode (make sure to have appropriate cmake tools extentions addded:
+
+## VSCode approach:
 ```
 cd LineFollower
 code .
