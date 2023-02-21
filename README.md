@@ -20,6 +20,7 @@ cd LineFollower
 
 ## Terminal approach:
 
+```
 // Create build folder
 mkdir build 
 // Move into the build folder
