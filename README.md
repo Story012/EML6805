@@ -1,49 +1,18 @@
 # EML6805
 Projects for Advanced Design of Robots course
 
-# LineFollower:
+# 6-DoF Arm Ball Picker:
 
-There are two main executables, one for an image and one for a video file/live camera.
+Install [Universal Robots driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver) 
 
-Go to your preffered directory in a terminal, 
-```
-cd ~/Documents/robotics_is_life
-```
+Source ROS2 with `Source /opt/ros/humble/setup.bash`
 
-Download the files:
-```
-// Grab files from github; note this will download in your current directory!
-git clone https://github.com/Story012/EML6805.git
+Run `ros2 run ur_robot_driver start_ursim.sh -m ur5e`, where in this case a UR5e arm is specified. This sets up a simulated arm, without needing the actual robot. The controller can be interacted with by copying the link in the terminal after executing the previous command; http://192.168.56.101:6080/vnc.html
 
-cd LineFollower
-```
+Once the VNC window is open, type any password and select continue. Proceed to click the red power button on the bottom left. Select "On" and "Start". Select "Exit", installation, payload, Mass = 0.001 (for some reason it can't be zero?). If there is a safety window popping up, hit revert changes. Now go to move. This is where you can manipulate the arm manually.
 
-## Terminal approach:
+Run `ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=192.168.56.101 launch_rviz:=true` to view the arm in RVIZ.
 
-```
-// Create build folder
-mkdir build 
-// Move into the build folder
-cd build
-// Set up the build folder for cmake
-cmake ..
-// Compile the scripts!
-make
-```
+Move the arm in the controller (the website), and watch the response on RVIZ! 
 
-From here, you can run the executables from within the build folder:
-```
-./lineFollower
-```
-or 
-```
-./lineFollower_live
- ```
-
-## VSCode approach:
-```
-cd LineFollower
-code .
-```
-
-After VSCode is opened, hit build and run either executable.
+(Optional) [Docker image for a simulated controller](https://hub.docker.com/r/universalrobots/ursim_e-series) 
