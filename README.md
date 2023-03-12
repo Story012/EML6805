@@ -13,12 +13,12 @@ Run:
 `ros2 run ur_robot_driver start_ursim.sh -m ur5e`
 In this case a UR5e arm is specified. This sets up a simulated arm, without needing the actual robot. The controller can be interacted with by copying the link in the terminal after executing the previous command; http://192.168.56.101:6080/vnc.html
 
-Controller/Robot Arm setup:  
-  - Once the VNC window is open, type any password and select continue.  
-  - Proceed to click the red power button on the bottom left.  
-  - Select "On" and then "Start".  
-  - Select exit > installation > payload. Set mass = 0.001 (for some reason it can't be zero...)  
-  - Select "Move" (This is where you can manipulate the arm manually). If there is a safety window popping up shortly afterwards, hit revert changes.  
+> Controller/Robot Arm setup:  
+  1. Once the VNC window is open, type any password and select continue.  
+  2. Proceed to click the red power button on the bottom left.  
+  3. Select "On" and then "Start".  
+  4. Select exit > installation > payload. Set mass = 0.001 (for some reason it can't be zero...)  
+  5. Select "Move" (This is where you can manipulate the arm manually). If there is a safety window popping up shortly afterwards, hit revert changes.  
 
 To view the arm in RVIZ. 
 `ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=192.168.56.101 launch_rviz:=true` 
