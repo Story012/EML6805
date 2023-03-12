@@ -3,9 +3,11 @@ Projects for Advanced Design of Robots course
 
 # 6-DoF Arm Ball Picker:
 
-Install [Universal Robots driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver) with `sudo apt-get install ros-${ROS_DISTRO}-ur-robot-driver`
+Install [Universal Robots driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver):
+`sudo apt-get install ros-${ROS_DISTRO}-ur-robot-driver`
 
-Source ROS2 with `Source /opt/ros/humble/setup.bash`
+Source ROS2:
+`Source /opt/ros/humble/setup.bash`
 
 Run `ros2 run ur_robot_driver start_ursim.sh -m ur5e`, where in this case a UR5e arm is specified. This sets up a simulated arm, without needing the actual robot. The controller can be interacted with by copying the link in the terminal after executing the previous command; http://192.168.56.101:6080/vnc.html
 
