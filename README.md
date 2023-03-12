@@ -13,7 +13,7 @@ Run:
 `ros2 run ur_robot_driver start_ursim.sh -m ur5e`
 In this case a UR5e arm is specified. This sets up a simulated arm, without needing the actual robot. The controller can be interacted with by copying the link in the terminal after executing the previous command; http://192.168.56.101:6080/vnc.html
 
-Controller/Robot Arm setup:
+Controller/Robot Arm setup: 
   -Once the VNC window is open, type any password and select continue.  
   -Proceed to click the red power button on the bottom left.  
   -Select "On" and then "Start".  
