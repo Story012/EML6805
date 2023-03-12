@@ -25,3 +25,5 @@ To view the arm in RVIZ:
 Move the arm in the controller (the website), and watch the response on RVIZ! 
 
 (Optional) [Docker image for a simulated controller](https://hub.docker.com/r/universalrobots/ursim_e-series) 
+
+Get Universal Robots urdf/sdf from their [description package](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
