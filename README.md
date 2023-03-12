@@ -3,7 +3,7 @@ Projects for Advanced Design of Robots course
 
 # 6-DoF Arm Ball Picker:
 
-Install [Universal Robots driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver) 
+Install [Universal Robots driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver) with `sudo apt-get install ros-${ROS_DISTRO}-ur-robot-driver`
 
 Source ROS2 with `Source /opt/ros/humble/setup.bash`
 
