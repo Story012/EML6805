@@ -20,7 +20,7 @@ In this case a UR5e arm is specified. This sets up a simulated arm, without need
   4. Select exit > installation > payload. Set mass = 0.001 (for some reason it can't be zero...)  
   5. Select "Move" (This is where you can manipulate the arm manually). If there is a safety window popping up shortly afterwards, hit revert changes.  
 
-To view the arm in RVIZ.  
+To view the arm in RVIZ:
 `ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=192.168.56.101 launch_rviz:=true`   
 Move the arm in the controller (the website), and watch the response on RVIZ! 
 
