@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/ball_publisher" "/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/ball_listener" "TARGETS" "ball_publisher" "ball_listener" "DESTINATION" "lib/ball_picker")

@@ -1,0 +1,3 @@
+[0.013s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+[0.045s] [100%] Built target ball_publisher
+[0.046s] [100%] Built target ball_listener
