@@ -3,6 +3,7 @@ Projects for Advanced Design of Robos course
 
 ## 6-DoF Arm Ball Picker:
 
+### Just visualizing and controlling the robot, no gazebo:
 Install [Universal Robots driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver):
 `sudo apt-get install ros-${ROS_DISTRO}-ur-robot-driver`
 
@@ -26,6 +27,7 @@ Move the arm in the controller (the website), and watch the response on RVIZ!
 
 (Optional) [Docker image for a simulated controller](https://hub.docker.com/r/universalrobots/ursim_e-series) 
 
+### Robot arm control in Gazebo using ROS2 (Humble)
 Get Universal Robots urdf from their [description package](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
 
 To create URDF, navigate to the URDF file of the description package:  
