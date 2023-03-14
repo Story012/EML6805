@@ -26,7 +26,7 @@ Move the arm in the controller (the website), and watch the response on RVIZ!
 
 (Optional) [Docker image for a simulated controller](https://hub.docker.com/r/universalrobots/ursim_e-series) 
 
-Get Universal Robots urdf/sdf from their [description package](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
+Get Universal Robots urdf from their [description package](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
 
 To create URDF, navigate to the URDF file of the description package:  
 `xacro ur.urdf.xacro name:=ur5e > ur5e.urdf`  
