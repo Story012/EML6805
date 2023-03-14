@@ -1,5 +1,5 @@
 # EML6805
-Projects for Advanced Design of Robots course
+Projects for Advanced Design of Robos course
 
 ## 6-DoF Arm Ball Picker:
 
@@ -27,3 +27,14 @@ Move the arm in the controller (the website), and watch the response on RVIZ!
 (Optional) [Docker image for a simulated controller](https://hub.docker.com/r/universalrobots/ursim_e-series) 
 
 Get Universal Robots urdf/sdf from their [description package](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
+
+To create URDF, navigate to the URDF file of the description package:  
+`xacro ur.urdf.xacro name:=ur5e > ur5e.urdf`  
+This will create a UR5e urdf, and can be changed by specifying which ever robot is desired. The xacro serves to simplify the process to a single file for any UR model.
+
+Copy the entire package to ~/.gazebo/models so that gazebo shows the model!  
+```
+cp -r Universal_Robots_ROS2_Description ~/.gazebo/models
+cd ~/.gazebo/models
+mv Universal_Robots_ROS2_Description ur_description
+```  
