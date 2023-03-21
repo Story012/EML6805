@@ -40,3 +40,10 @@ cp -r Universal_Robots_ROS2_Description ~/.gazebo/models
 cd ~/.gazebo/models
 mv Universal_Robots_ROS2_Description ur_description
 ```  
+
+
+Package breakdown:
+
+ur_description
+Universal_Robots_ROS2_Driver
+Universal_Robots_ROS2_Gazebo_Simulation
