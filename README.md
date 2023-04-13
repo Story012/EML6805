@@ -4,7 +4,7 @@ Projects for Advanced Design of Robos course
 ## 6-DoF Arm Ball Picker:
 
 ### Install UR packages:
-`sudo apt-get install ros-${ROS_DISTRO}-ur-robot-driver`
+`sudo apt-get install ros-${ROS_DISTRO}-ur-robot-driver`  
 `sudo apt-get install ros-${ROS_DISTRO}-ur-description`
 
 If this repo was not cloned, git this package:
