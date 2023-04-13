@@ -30,6 +30,11 @@ Move the arm in the controller (the website), and watch the response on RVIZ!
 ### Robot arm control in Gazebo using ROS2 (Humble)
 Get Universal Robots urdf from their [description package](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
 
+<<<<<<< HEAD
+=======
+Add this folder to your src folder!
+
+>>>>>>> f623d38ad45a1af2651e746bd4a038c576296e10
 To create URDF, navigate to the URDF file of the description package:  
 `xacro ur.urdf.xacro name:=ur5e > ur5e.urdf`  
 This will create a UR5e urdf, and can be changed by specifying which ever robot is desired. The xacro serves to simplify the process to a single file for any UR model.
@@ -40,6 +45,7 @@ cp -r Universal_Robots_ROS2_Description ~/.gazebo/models
 cd ~/.gazebo/models
 mv Universal_Robots_ROS2_Description ur_description
 ```  
+<<<<<<< HEAD
 
 
 Package breakdown:
@@ -47,3 +53,5 @@ Package breakdown:
 ur_description
 Universal_Robots_ROS2_Driver
 Universal_Robots_ROS2_Gazebo_Simulation
+=======
+>>>>>>> f623d38ad45a1af2651e746bd4a038c576296e10

@@ -1,0 +1,11 @@
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/uninstall.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/ball_picker_uninstall.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/ball_publisher.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/ball_listener.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/test.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/edit_cache.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/rebuild_cache.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/list_install_components.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/install.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/install/local.dir
+/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker/CMakeFiles/install/strip.dir

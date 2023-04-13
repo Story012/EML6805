@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target ball_publisher[0m
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target ball_listener[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/ball_publisher.dir/src/ball_publisher.cpp.o[0m
+[0.046s] [ 75%] Built target ball_listener
+[2.733s] [100%] [32m[1mLinking CXX executable ball_publisher[0m
+[2.837s] [100%] Built target ball_publisher
+[2.843s] Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+[2.857s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker
+[2.861s] -- Install configuration: ""
+[2.861s] -- Installing: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/lib/ball_picker/ball_publisher
+[2.862s] -- Set runtime path of "/home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/lib/ball_picker/ball_publisher" to ""
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/lib/ball_picker/ball_listener
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/package_run_dependencies/ball_picker
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/parent_prefix_path/ball_picker
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/ament_prefix_path.sh
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/ament_prefix_path.dsv
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/path.sh
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/path.dsv
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.bash
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.sh
+[2.862s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.zsh
+[2.863s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.dsv
+[2.863s] -- Installing: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/package.dsv
+[2.863s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/packages/ball_picker
+[2.863s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig.cmake
+[2.863s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig-version.cmake
+[2.863s] -- Up-to-date: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/package.xml
+[2.863s] Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker
