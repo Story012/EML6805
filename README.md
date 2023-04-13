@@ -8,8 +8,7 @@ Projects for Advanced Design of Robos course
 `sudo apt-get install ros-${ROS_DISTRO}-ur-description`
 
 If this repo was not cloned, git this package:
-[Universal_Robots_ROS2_Gazebo_Simulation]
-(https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git)
+[Universal_Robots_ROS2_Gazebo_Simulation](https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git)
 
 
 Source ROS2:
