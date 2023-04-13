@@ -1,0 +1,98 @@
+[0.014s] Invoking command in '/home/sebas/Documents/galactic_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver:/home/sebas/Documents/galactic_ws/install/ur_bringup:/home/sebas/Documents/galactic_ws/install/ur_controllers:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs:/home/sebas/Documents/galactic_ws/install/ur_simulation_gazebo:/home/sebas/Documents/galactic_ws/install/ur_calibration:/home/sebas/Documents/galactic_ws/install/ur_moveit_config:/home/sebas/Documents/galactic_ws/install/ur_description:/home/sebas/Documents/galactic_ws/install/ball_picker:/opt/ros/galactic PYTHONPATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_moveit_config/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/sebas/Documents/galactic_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/home/sebas/Documents/galactic_ws/install/ur_calibration
+[0.057s] -- The C compiler identification is GNU 9.4.0
+[0.096s] -- The CXX compiler identification is GNU 9.4.0
+[0.099s] -- Check for working C compiler: /usr/bin/cc
+[0.152s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.152s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.215s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.217s] -- Check for working CXX compiler: /usr/bin/c++
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.278s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.349s] ur_calibration: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.350s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.368s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.368s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.425s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.534s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.558s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.658s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.673s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.673s] -- Looking for pthread.h
+[0.728s] -- Looking for pthread.h - found
+[0.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.783s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.784s] -- Looking for pthread_create in pthreads
+[0.831s] -- Looking for pthread_create in pthreads - not found
+[0.831s] -- Looking for pthread_create in pthread
+[0.887s] -- Looking for pthread_create in pthread - found
+[0.888s] -- Found Threads: TRUE  
+[0.999s] -- Found ur_robot_driver: 2.1.2 (/home/sebas/Documents/galactic_ws/install/ur_robot_driver/share/ur_robot_driver/cmake)
+[1.722s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.724s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.694s] -- Found ament_cmake_gmock: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gmock/cmake)
+[2.696s] -- Found gmock sources under '/opt/ros/galactic/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.700s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[2.701s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.751s] -- Configuring done
+[2.803s] -- Generating done
+[2.805s] -- Build files have been written to: /home/sebas/Documents/galactic_ws/build/ur_calibration
+[2.814s] Invoked command in '/home/sebas/Documents/galactic_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver:/home/sebas/Documents/galactic_ws/install/ur_bringup:/home/sebas/Documents/galactic_ws/install/ur_controllers:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs:/home/sebas/Documents/galactic_ws/install/ur_simulation_gazebo:/home/sebas/Documents/galactic_ws/install/ur_calibration:/home/sebas/Documents/galactic_ws/install/ur_moveit_config:/home/sebas/Documents/galactic_ws/install/ur_description:/home/sebas/Documents/galactic_ws/install/ball_picker:/opt/ros/galactic PYTHONPATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_moveit_config/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/sebas/Documents/galactic_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_INSTALL_PREFIX=/home/sebas/Documents/galactic_ws/install/ur_calibration
+[2.817s] Invoking command in '/home/sebas/Documents/galactic_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver:/home/sebas/Documents/galactic_ws/install/ur_bringup:/home/sebas/Documents/galactic_ws/install/ur_controllers:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs:/home/sebas/Documents/galactic_ws/install/ur_simulation_gazebo:/home/sebas/Documents/galactic_ws/install/ur_calibration:/home/sebas/Documents/galactic_ws/install/ur_moveit_config:/home/sebas/Documents/galactic_ws/install/ur_description:/home/sebas/Documents/galactic_ws/install/ball_picker:/opt/ros/galactic PYTHONPATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_moveit_config/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/sebas/Documents/galactic_ws/build/ur_calibration -- -j16 -l16
+[2.850s] [35m[1mScanning dependencies of target gmock_main[0m
+[2.850s] [35m[1mScanning dependencies of target gmock[0m
+[2.850s] [35m[1mScanning dependencies of target calibration_correction[0m
+[2.887s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.891s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.891s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/galactic/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.051s] [ 50%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_correction.cpp.o[0m
+[3.051s] [ 50%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration.cpp.o[0m
+[3.051s] [ 50%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_consumer.cpp.o[0m
+[3.736s] [ 58%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.766s] [ 58%] Built target gmock_main
+[10.743s] [ 66%] [32m[1mLinking CXX executable calibration_correction[0m
+[10.961s] [ 66%] Built target calibration_correction
+[11.907s] [ 75%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.094s] [ 75%] Built target gmock
+[12.106s] [35m[1mScanning dependencies of target calibration_test[0m
+[12.394s] [ 91%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/src/calibration.cpp.o[0m
+[12.394s] [ 91%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o[0m
+[19.014s] [100%] [32m[1mLinking CXX executable calibration_test[0m
+[19.304s] [100%] Built target calibration_test
+[19.327s] Invoked command in '/home/sebas/Documents/galactic_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver:/home/sebas/Documents/galactic_ws/install/ur_bringup:/home/sebas/Documents/galactic_ws/install/ur_controllers:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs:/home/sebas/Documents/galactic_ws/install/ur_simulation_gazebo:/home/sebas/Documents/galactic_ws/install/ur_calibration:/home/sebas/Documents/galactic_ws/install/ur_moveit_config:/home/sebas/Documents/galactic_ws/install/ur_description:/home/sebas/Documents/galactic_ws/install/ball_picker:/opt/ros/galactic PYTHONPATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_moveit_config/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/sebas/Documents/galactic_ws/build/ur_calibration -- -j16 -l16
+[19.370s] Invoking command in '/home/sebas/Documents/galactic_ws/build/ur_calibration': CMAKE_PREFIX_PATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver:/home/sebas/Documents/galactic_ws/install/ur_bringup:/home/sebas/Documents/galactic_ws/install/ur_controllers:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs:/home/sebas/Documents/galactic_ws/install/ur_simulation_gazebo:/home/sebas/Documents/galactic_ws/install/ur_calibration:/home/sebas/Documents/galactic_ws/install/ur_moveit_config:/home/sebas/Documents/galactic_ws/install/ur_description:/home/sebas/Documents/galactic_ws/install/ball_picker:/opt/ros/galactic PYTHONPATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_moveit_config/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/sebas/Documents/galactic_ws/build/ur_calibration
+[19.379s] -- Install configuration: "RelWithDebInfo"
+[19.379s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/lib/ur_calibration/calibration_correction
+[19.387s] -- Set runtime path of "/home/sebas/Documents/galactic_ws/install/ur_calibration/lib/ur_calibration/calibration_correction" to ""
+[19.387s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/include
+[19.387s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/include/ur_calibration
+[19.387s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/include/ur_calibration/calibration.hpp
+[19.388s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[19.388s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/launch
+[19.388s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[19.469s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[19.470s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[19.470s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[19.470s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[19.471s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/environment/path.sh
+[19.471s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[19.471s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/local_setup.bash
+[19.471s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/local_setup.sh
+[19.472s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[19.472s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[19.472s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/package.dsv
+[19.472s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[19.473s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.473s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.473s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[19.473s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[19.474s] -- Installing: /home/sebas/Documents/galactic_ws/install/ur_calibration/share/ur_calibration/package.xml
+[19.481s] Invoked command in '/home/sebas/Documents/galactic_ws/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver:/home/sebas/Documents/galactic_ws/install/ur_bringup:/home/sebas/Documents/galactic_ws/install/ur_controllers:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs:/home/sebas/Documents/galactic_ws/install/ur_simulation_gazebo:/home/sebas/Documents/galactic_ws/install/ur_calibration:/home/sebas/Documents/galactic_ws/install/ur_moveit_config:/home/sebas/Documents/galactic_ws/install/ur_description:/home/sebas/Documents/galactic_ws/install/ball_picker:/opt/ros/galactic PYTHONPATH=/home/sebas/Documents/galactic_ws/install/ur_robot_driver/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/sebas/Documents/galactic_ws/install/ur_moveit_config/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/sebas/Documents/galactic_ws/build/ur_calibration

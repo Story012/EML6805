@@ -1,0 +1,101 @@
+[0.015s] Invoking command in '/home/sebas/Documents/galactic_ws/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/sebas/Documents/galactic_ws/src/ball_picker -DCMAKE_INSTALL_PREFIX=/home/sebas/Documents/galactic_ws/install/ball_picker
+[0.100s] -- The C compiler identification is GNU 9.4.0
+[0.142s] -- The CXX compiler identification is GNU 9.4.0
+[0.148s] -- Check for working C compiler: /usr/bin/cc
+[0.199s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.199s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.316s] -- Detecting CXX compiler ABI info
+[0.372s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.402s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.463s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.606s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.742s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.746s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.763s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.765s] -- Looking for pthread.h
+[0.824s] -- Looking for pthread.h - found
+[0.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.883s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.883s] -- Looking for pthread_create in pthreads
+[0.931s] -- Looking for pthread_create in pthreads - not found
+[0.931s] -- Looking for pthread_create in pthread
+[0.983s] -- Looking for pthread_create in pthread - found
+[0.984s] -- Found Threads: TRUE  
+[1.119s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.160s] -- Found OpenCV: /usr/local (found version "4.6.0") 
+[1.211s] -- Configuring done
+[1.223s] -- Generating done
+[1.224s] -- Build files have been written to: /home/sebas/Documents/galactic_ws/build/ball_picker
+[1.233s] Invoked command in '/home/sebas/Documents/galactic_ws/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/sebas/Documents/galactic_ws/src/ball_picker -DCMAKE_INSTALL_PREFIX=/home/sebas/Documents/galactic_ws/install/ball_picker
+[1.236s] Invoking command in '/home/sebas/Documents/galactic_ws/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/sebas/Documents/galactic_ws/build/ball_picker -- -j16 -l16
+[1.269s] [35m[1mScanning dependencies of target tracker[0m
+[1.269s] [35m[1mScanning dependencies of target ball_publisher[0m
+[1.269s] [35m[1mScanning dependencies of target ball_listener[0m
+[1.296s] [ 33%] [32mBuilding CXX object CMakeFiles/ball_publisher.dir/src/ball_publisher.cpp.o[0m
+[1.296s] [ 33%] [32mBuilding CXX object CMakeFiles/ball_listener.dir/src/ball_listener.cpp.o[0m
+[1.307s] [ 50%] [32mBuilding CXX object CMakeFiles/tracker.dir/src/BallTracker.cpp.o[0m
+[4.535s] [01m[K/home/sebas/Documents/galactic_ws/src/ball_picker/src/BallTracker.cpp:[m[K In function ‘[01m[Kcv::Point traceBall(const cv::Mat&)[m[K’:
+[4.535s] [01m[K/home/sebas/Documents/galactic_ws/src/ball_picker/src/BallTracker.cpp:96:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.535s]    96 |  int [01;35m[Khue[m[K = h;
+[4.535s]       |      [01;35m[K^~~[m[K
+[4.536s] [01m[K/home/sebas/Documents/galactic_ws/src/ball_picker/src/BallTracker.cpp:97:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksaturation[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.536s]    97 |     int [01;35m[Ksaturation[m[K = s;
+[4.536s]       |         [01;35m[K^~~~~~~~~~[m[K
+[5.644s] [ 66%] [32m[1mLinking CXX executable ball_publisher[0m
+[5.795s] [ 66%] Built target ball_publisher
+[7.435s] [ 83%] [32m[1mLinking CXX executable tracker[0m
+[7.708s] [ 83%] Built target tracker
+[8.293s] [100%] [32m[1mLinking CXX executable ball_listener[0m
+[8.483s] [100%] Built target ball_listener
+[8.492s] Invoked command in '/home/sebas/Documents/galactic_ws/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/sebas/Documents/galactic_ws/build/ball_picker -- -j16 -l16
+[8.512s] Invoking command in '/home/sebas/Documents/galactic_ws/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/sebas/Documents/galactic_ws/build/ball_picker
+[8.518s] -- Install configuration: ""
+[8.518s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/lib/ball_picker/ball_publisher
+[8.519s] -- Set runtime path of "/home/sebas/Documents/galactic_ws/install/ball_picker/lib/ball_picker/ball_publisher" to ""
+[8.519s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/lib/ball_picker/ball_listener
+[8.521s] -- Set runtime path of "/home/sebas/Documents/galactic_ws/install/ball_picker/lib/ball_picker/ball_listener" to ""
+[8.521s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/lib/ball_picker/tracker
+[8.521s] -- Set runtime path of "/home/sebas/Documents/galactic_ws/install/ball_picker/lib/ball_picker/tracker" to ""
+[8.521s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/launch
+[8.522s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/launch/ball_picker_rviz_launch.py
+[8.522s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/launch/__pycache__
+[8.522s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/launch/__pycache__/arm_gazebo.launch.cpython-310.pyc
+[8.522s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/launch/ur.launch.py
+[8.523s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/launch/ball_picker_gazebo_launch.py
+[8.523s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/launch/arm_gazebo.launch.py
+[8.523s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/urdf
+[8.523s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/urdf/ur10.urdf
+[8.524s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/urdf/ur5e.urdf
+[8.525s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/urdf/camera.xacro
+[8.525s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/urdf/ball_picker.urdf
+[8.525s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/config
+[8.525s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/config/ur_controllers.yaml
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ament_index/resource_index/package_run_dependencies/ball_picker
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ament_index/resource_index/parent_prefix_path/ball_picker
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/environment/ament_prefix_path.sh
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/environment/ament_prefix_path.dsv
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/environment/path.sh
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/environment/path.dsv
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/local_setup.bash
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/local_setup.sh
+[8.526s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/local_setup.zsh
+[8.527s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/local_setup.dsv
+[8.527s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/package.dsv
+[8.527s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ament_index/resource_index/packages/ball_picker
+[8.527s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig.cmake
+[8.527s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig-version.cmake
+[8.527s] -- Installing: /home/sebas/Documents/galactic_ws/install/ball_picker/share/ball_picker/package.xml
+[8.529s] Invoked command in '/home/sebas/Documents/galactic_ws/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/sebas/Documents/galactic_ws/build/ball_picker

@@ -1,0 +1,4 @@
+Invoking command in '/home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs -- -j16 -l16
+Invoked command in '/home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs -- -j16 -l16
+Invoking command in '/home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs
+Invoked command in '/home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/sebas/Documents/galactic_ws/build/ur_dashboard_msgs

@@ -1,0 +1,10 @@
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/install/strip.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/install/local.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/install.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/list_install_components.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/rebuild_cache.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/edit_cache.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/test.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/ur_controllers.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/ur_controllers_uninstall.dir
+/home/sebas/Documents/galactic_ws/build/ur_controllers/CMakeFiles/uninstall.dir

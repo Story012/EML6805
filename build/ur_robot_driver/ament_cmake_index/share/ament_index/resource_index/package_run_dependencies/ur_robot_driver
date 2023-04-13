@@ -1,0 +1,1 @@
+controller_manager;controller_manager_msgs;geometry_msgs;hardware_interface;pluginlib;rclcpp;rclcpp_lifecycle;rclpy;std_msgs;std_srvs;tf2_geometry_msgs;ur_bringup;ur_client_library;ur_controllers;ur_dashboard_msgs;ur_description;ur_msgs;launch_testing_ament_cmake

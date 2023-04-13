@@ -1,0 +1,12 @@
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/install/strip.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/install/local.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/install.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/list_install_components.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/rebuild_cache.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/tracker.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/ball_publisher.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/edit_cache.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/test.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/ball_picker_uninstall.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/ball_listener.dir
+/home/sebas/Documents/galactic_ws/build/ball_picker/CMakeFiles/uninstall.dir

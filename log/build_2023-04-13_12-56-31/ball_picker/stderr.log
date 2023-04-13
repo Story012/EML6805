@@ -1,0 +1,7 @@
+[01m[K/home/sebas/Documents/galactic_ws/src/ball_picker/src/BallTracker.cpp:[m[K In function ‘[01m[Kcv::Point traceBall(const cv::Mat&)[m[K’:
+[01m[K/home/sebas/Documents/galactic_ws/src/ball_picker/src/BallTracker.cpp:96:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   96 |  int [01;35m[Khue[m[K = h;
+      |      [01;35m[K^~~[m[K
+[01m[K/home/sebas/Documents/galactic_ws/src/ball_picker/src/BallTracker.cpp:97:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksaturation[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   97 |     int [01;35m[Ksaturation[m[K = s;
+      |         [01;35m[K^~~~~~~~~~[m[K

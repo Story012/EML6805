@@ -1,0 +1,9 @@
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/install/strip.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/install/local.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/install.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/list_install_components.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/rebuild_cache.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/edit_cache.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/test.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/ur_bringup_uninstall.dir
+/home/sebas/Documents/galactic_ws/build/ur_bringup/CMakeFiles/uninstall.dir
