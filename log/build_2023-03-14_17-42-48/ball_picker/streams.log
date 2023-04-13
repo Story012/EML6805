@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+[0.047s] [ 50%] Built target ball_publisher
+[0.047s] [100%] Built target ball_listener
+[0.058s] Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+[0.072s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker
+[0.077s] -- Install configuration: ""
+[0.077s] -- Execute custom install script
+[0.077s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/lib/ball_picker/ball_publisher
+[0.078s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/lib/ball_picker/ball_listener
+[0.078s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/launch/__pycache__/arm_gazebo.launch.cpython-310.pyc
+[0.078s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/launch/arm_gazebo.launch.py
+[0.078s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/launch/ball_picker_gazebo_launch.py
+[0.078s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/launch/ball_picker_rviz_launch.py
+[0.078s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/urdf/ball_picker.urdf
+[0.079s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/urdf/ur10.urdf
+[0.079s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/urdf/ur5e.urdf
+[0.079s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/config/ur_controllers.yaml
+[0.079s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/package_run_dependencies/ball_picker
+[0.079s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/parent_prefix_path/ball_picker
+[0.079s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/ament_prefix_path.sh
+[0.080s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/ament_prefix_path.dsv
+[0.080s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/path.sh
+[0.080s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/path.dsv
+[0.080s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.bash
+[0.080s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.sh
+[0.080s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.zsh
+[0.080s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.dsv
+[0.080s] -- Symlinking: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/package.dsv
+[0.085s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/packages/ball_picker
+[0.085s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig.cmake
+[0.086s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig-version.cmake
+[0.086s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/package.xml
+[0.087s] Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker

@@ -1,0 +1,1 @@
+Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16

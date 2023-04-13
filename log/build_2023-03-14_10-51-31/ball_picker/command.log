@@ -1,0 +1,4 @@
+Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker
+Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker

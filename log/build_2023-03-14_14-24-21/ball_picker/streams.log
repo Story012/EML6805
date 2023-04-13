@@ -1,0 +1,49 @@
+[0.018s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sebas/Desktop/Projects/ur_ros2/src/ball_picker -DCMAKE_INSTALL_PREFIX=/home/sebas/Desktop/Projects/ur_ros2/install/ball_picker
+[0.056s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.168s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.194s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.234s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.247s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.342s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.450s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Configuring done
+[0.648s] -- Generating done
+[0.649s] -- Build files have been written to: /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker
+[0.655s] Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sebas/Desktop/Projects/ur_ros2/src/ball_picker -DCMAKE_INSTALL_PREFIX=/home/sebas/Desktop/Projects/ur_ros2/install/ball_picker
+[0.657s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target ball_publisher[0m
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target ball_listener[0m
+[0.715s] [100%] Built target ball_listener
+[0.715s] [100%] Built target ball_publisher
+[0.723s] Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker -- -j16 -l16
+[0.747s] Invoking command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker
+[0.751s] -- Install configuration: ""
+[0.751s] -- Execute custom install script
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/lib/ball_picker/ball_publisher
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/lib/ball_picker/ball_listener
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/launch/arm_gazebo.launch.py
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/launch/ball_picker_gazebo_launch.py
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/launch/ball_picker_rviz_launch.py
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/urdf/ball_picker.urdf
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/urdf/ur5e.urdf
+[0.752s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/config/ur_controllers.yaml
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/package_run_dependencies/ball_picker
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/parent_prefix_path/ball_picker
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/ament_prefix_path.sh
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/ament_prefix_path.dsv
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/path.sh
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/environment/path.dsv
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.bash
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.sh
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.zsh
+[0.753s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/local_setup.dsv
+[0.754s] -- Symlinking: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/package.dsv
+[0.759s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ament_index/resource_index/packages/ball_picker
+[0.759s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig.cmake
+[0.759s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/cmake/ball_pickerConfig-version.cmake
+[0.759s] -- Up-to-date symlink: /home/sebas/Desktop/Projects/ur_ros2/install/ball_picker/share/ball_picker/package.xml
+[0.761s] Invoked command in '/home/sebas/Desktop/Projects/ur_ros2/build/ball_picker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebas/Desktop/Projects/ur_ros2/build/ball_picker
