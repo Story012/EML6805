@@ -24,6 +24,6 @@ ros2 launch ur_simulation_gazebo ur_sim_moveit.launch.py
 
 # Package breakdown:
 
-ur_description
-Universal_Robots_ROS2_Driver
-Universal_Robots_ROS2_Gazebo_Simulation
+Universal_Robots_ROS2_Description  
+Universal_Robots_ROS2_Driver  
+Universal_Robots_ROS2_Gazebo_Simulation  
